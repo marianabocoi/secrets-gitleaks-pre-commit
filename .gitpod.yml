@@ -1,0 +1,6 @@
+tasks:
+  - name: Install pre-commit and open README
+    init: |
+      pip install pre-commit; \
+      code README.md ; \
+      clear
